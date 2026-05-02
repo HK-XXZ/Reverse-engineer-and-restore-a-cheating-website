@@ -3,7 +3,7 @@ return encodedStr.replace(/&#x([0-9a-fA-F]+);/g, function(match, hexValue){
 return String.fromCharCode(parseInt(hexValue, 16));
 });
 }
-let encodedString = "<!--我AI抄袭狗，我说让AI写的变成我的，你们谁都不要阻止我哦🤣 -->
+let encodedString = "<!--我AI抄袭狗，我说让AI写的变成我的，你们谁都不要阻止我哦🤣 -->"
 let decodedString = decodeUnicodeEntities(encodedString);
 document.write(decodedString);
         (function antiDebug() {
