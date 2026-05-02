@@ -1,4 +1,3 @@
-<script>
 function decodeUnicodeEntities(encodedStr){
 return encodedStr.replace(/&#x([0-9a-fA-F]+);/g, function(match, hexValue){
 return String.fromCharCode(parseInt(hexValue, 16));
@@ -107,4 +106,3 @@ document.write(decodedString);
                 if (toast.parentNode) toast.parentNode.removeChild(toast);
             }, 2000);
         }
-</script>
